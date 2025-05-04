@@ -1,4 +1,6 @@
 -- There are two commands to create a user in linux (adduser and useradd).
     -> useradd create a user but doesnot create a home directory. Whereas adduser will create home directory as well.
+-- You cannot restore the password of the user created in linux.
+-- Passwords of users are stored in /etc/shadow in highly encrypted way (One-Way hashing is done with SHA-512)
 
 - In /bin path we will have all the commands which we can execute.
