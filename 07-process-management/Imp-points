@@ -1,0 +1,5 @@
+*** Difference between "ps aux" and "ps -ef" is in ps aux it will list cpu and memory usage of the process but in ps ef it won't.
+--> While changing the priority of the process, it take numbers from -19 to 20. (-19 be the highest priority and 20 is the least priority).
+
+--> Service is a special type of process whivh will start automactically when the servers starts/restarts.
+--> Process(application) will won't start by itself after restart/start of the server.
